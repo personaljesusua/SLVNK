@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- If you include it in your own library use this pattern: define_* -->
+    <!-- If it should be included in the AboutLibraries lib use this pattern: define_int_* -->
+    <string name="define_htmltextview"></string>
+    <string name="library_htmltextview_author">JDominik Schürmann</string>
+    <string name="library_htmltextview_authorWebsite"></string>
+    <string name="library_htmltextview_libraryName">html-textview</string>
+    <string name="library_htmltextview_libraryDescription">HtmlTextView is an extended TextView component for Android, which can load HTML and converts it into Spannable for displaying it. It is a replacement for usage of
+        the WebView component, which behaves strange on some Android versions, flickers while loading, etc.</string>
+    <string name="library_htmltextview_libraryVersion">3.5</string>
+    <string name="library_htmltextview_libraryWebsite"></string>
+    <!-- Possible values right now: apache_2_0, mit, bsd_2, bsd_3 -->
+    <string name="library_htmltextview_licenseId">apache_2_0</string>
+    <!-- you still can define the license within your library definition, but it is recommend to use the id -->
+    <!-- possible fields for a custom license: *_licenseVersion, *_licenseLink, *_licenseContent -->
+    <string name="library_htmltextview_isOpenSource">true</string>
+    <string name="library_htmltextview_repositoryLink">https://github.com/PrivacyApps/html-textview</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="key_themes_pref">key_themes_pref</string>
+    <string name="key_about_pref">key_about_pref</string>
+    <string name="key_links_pref">key_links_pref</string>
+    <string name="pref_key_textsize">pref_key_textsize</string>
+</resources>

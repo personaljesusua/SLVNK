@@ -1,0 +1,63 @@
+<resources>
+
+    <style name="LightTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="icon">@color/colorIcon</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="LightAboutTheme" parent="AboutLibrariesTheme.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <style name="LightTheme.NoActionBar" parent="LightTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LightTheme.Search.NoActionBar" parent="LightTheme.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="LightAboutTheme.NoActionBar" parent="LightAboutTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkD</item>
+        <item name="colorPrimary">@color/colorPrimaryD</item>
+        <item name="icon">@color/colorIconD</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryD</item>
+    </style>
+
+    <style name="DarkAboutTheme" parent="AboutLibrariesTheme">
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkD</item>
+        <item name="colorPrimary">@color/colorPrimaryD</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryD</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="DarkTheme.NoActionBar" parent="DarkTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DarkTheme.Search.NoActionBar" parent="DarkTheme.NoActionBar" />
+
+    <style name="DarkAboutTheme.NoActionBar" parent="DarkAboutTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

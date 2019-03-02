@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/title_look_category_pref">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_themes_pref"
+            android:title="@string/pref_title_themes" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_links_pref"
+            android:summary="@string/pref_summary_link"
+            android:title="@string/pref_title_links" />
+
+        <ListPreference
+            android:defaultValue="16"
+            android:entries="@array/pref_textsize_values"
+            android:entryValues="@array/pref_textsize_values"
+            android:key="@string/pref_key_textsize"
+            android:title="@string/text_size_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_about_category_pref">
+
+        <Preference
+            android:key="@string/key_about_pref"
+            android:summary="@string/pref_summary_about"
+            android:title="@string/pref_title_about_the_app" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

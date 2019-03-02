@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">СЛВНК</string>
+    <string name="search_hint">Шукане слово…</string>
+    <string name="no_word_to_search">Ви не ввели слово, яке бажаєте знайти</string>
+    <string name="interpretation">Тлумачення</string>
+    <string name="not_found">Слова «%s» не знайдено
+        \n
+        \n<ul>
+            <li>Перевірте написання слова.\n</li>
+            <li>Перевірте з\'єднання з Інтернетом.\n</li>
+            <li>Перевірте сам сайт <a href="http://sum.in.ua">sum.in.ua</a>.</li>
+        </ul>
+    </string>
+    <string name="please_wait">Будь ласка, зачекайте</string>
+    <string name="what_is_it">%s — це неофіційний застосунок для сайту sum.in.ua.
+        \n
+        \n«Мета цього сайту — надати онлайновий доступ до повного тексту
+        оригінального «Словника української мови» в 11 томах…» — витяг зі сайту.
+        \n
+        \nМета цього застосунку — надати швидкий доступ до sum.in.ua з мудрофонів,
+        щоб шукати потрібне слово можна було ще зручніше.
+        \n
+        \nОскільки це неофіційний застосунок, то деякі функції можуть не працювати, можуть бути помилки, але сподіватимемось, що все буде добре.
+    </string>
+    <string name="what_is_it_title">Що це?</string>
+    <string name="title_activity_settings">Налаштування</string>
+
+    <string name="pref_title_themes">Темна тема</string>
+    <string name="pref_title_about_the_app">Про застосунок</string>
+    <string name="text_size_title">Розмір тексту тлумачення</string>
+    <string name="title_look_category_pref">Вигляд</string>
+    <string name="title_about_category_pref">Інше</string>
+    <string name="pref_summary_about">Про застосунок та бібліотеки</string>
+
+    <string name="about_descr">
+        <strong>%s</strong> — це неофіційний застосунок для сайту <a href="http://sum.in.ua">sum.in.ua</a>,
+        що у свою чергу надає онлайн доступ до одинадцятитомного «Словника української мови» (або СУМ-11).
+        <br />
+        \n<strong>%s</strong> створений для того, щоб можна було легко шукати потрібне Вам слово.
+    </string>
+    <string name="learn_more">Дізнатись більше</string>
+    <string name="pref_title_links">Внутрішні посилання</string>
+    <string name="pref_summary_link">Намагатись відкривати посилання всередині програми, а не через браузер</string>
+</resources>

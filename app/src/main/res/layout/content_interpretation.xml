@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vladyslavpohrebniakov.slvnk.interpretation.InterpretationActivity"
+    tools:showIn="@layout/activity_interpretation">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/interpretationCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/cardview_padding"
+            android:layout_marginTop="@dimen/cardview_padding"
+            android:layout_marginEnd="@dimen/cardview_padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cardview_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/wordTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:textAllCaps="true"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    tools:text="@tools:sample/lorem/random" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardview_padding"
+                    android:fontFamily="serif"
+                    android:text="@string/interpretation"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Overline" />
+
+                <vladyslavpohrebniakov.slvnk.ui.MyHtmlTextView
+                    android:id="@+id/interpretationTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardview_padding"
+                    android:fontFamily="serif"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                    tools:text="@tools:sample/lorem/random" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/emptyViewCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/cardview_padding"
+            android:layout_marginTop="@dimen/cardview_padding"
+            android:layout_marginEnd="@dimen/cardview_padding"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/notFoundTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/cardview_padding"
+                android:text="@string/not_found"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/sourceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/default_margin"
+            android:fontFamily="serif"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textStyle="italic"
+            tools:text="Slovnyk 11" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
